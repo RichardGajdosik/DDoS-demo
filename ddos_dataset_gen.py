@@ -230,7 +230,7 @@ def generate_fixed_connection_times():
 
     # Creating a second CSV file with only normalized times
     df_normalized = df[['Connection Time']]
-    df_normalized.to_csv('NormalizedTimes.csv', index=False)
+    df_normalized.to_csv('DDoSNormalizedTimes.csv', index=False)
 
     print(f"DDoS attack generated on {ddos_date.strftime('%Y-%m-%d')} at 14:00.")
 
