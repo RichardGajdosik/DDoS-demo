@@ -28,13 +28,13 @@ def plot_float_values(file_path):
     plt.tight_layout()
 
     # Save the plot as a PDF file
-    plt.savefig('FloatValuesPlot.pdf', dpi=300)
+    plt.savefig('SimpleDDoSNormalizedTimes.pdf', dpi=300)
 
     # Optional: Display the plot window
     # plt.show()
 
-    print("Plot has been saved as 'FloatValuesPlot.pdf'.")
+    print("Plot has been saved as 'SimpleDDoSNormalizedTimes.pdf'.")
 
 # Example usage:
 # Replace 'values.txt' with the path to your file containing the float values
-plot_float_values('values.txt')
+plot_float_values('SimpleDDoSNormalizedTimes.csv')
